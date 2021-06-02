@@ -1,0 +1,109 @@
+/* Web Fonts */
+
+/* General styles 
+================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #a5a58d;
+}
+.wrapper {
+  overflow: hidden;
+}
+.fig-img {
+  overflow: hidden;
+  text-align: center;
+}
+img {
+  max-height: 500px;
+  max-height: 400px;
+  min-width: auto;
+  min-height: auto;
+  border-radius: 20%;
+}
+
+body {
+  margin: 1rem;
+}
+
+/* Typography
+================== */
+
+/* Header
+================== */
+h1,
+h2,
+h3 {
+  max-width: 100%;
+  text-align: center;
+}
+.header-title {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+.header-date {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.header-text {
+  background: #ffe8d6;
+}
+.header-subtext {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.summary {
+  padding: 0.3rem 0 0.3rem 0;
+}
+p {
+  line-height: 2rem;
+  background: #ffe8d6;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Timeline Section
+================== */
+.timeline {
+  background: #ffe8d6;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.timeline-title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.list-items {
+  padding: 0 0.2rem 0 0;
+}
+.cite {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+@media screen and (min-width: 640px) {
+  .header-title {
+    font-size: 3.5rem;
+  }
+  .header-date {
+    font-size: 2.5rem;
+  }
+  .header-subtext {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .timeline-title {
+    font-size: 2rem;
+  }
+  li {
+    font-size: 1.7rem;
+  }
+}
